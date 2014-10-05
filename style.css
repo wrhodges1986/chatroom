@@ -7,7 +7,8 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-color: #0099CC
+  /*background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');*/
 }
 
 .main-container {
@@ -25,6 +26,15 @@ body {
 .text-box {
   margin: 0px auto;
   width: 40%;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	font-size: 5em;
+	font-family: "Helvetica";
+	border-radius: 1em;
+	border: 0.05em solid #0099CC;
 }
 
 p{
